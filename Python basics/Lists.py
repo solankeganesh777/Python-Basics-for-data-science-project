@@ -72,6 +72,15 @@ print(l)
 
 print('\n')
 
+#Copy: After copying, both variable points to same list
+A=['jalna', 21]
+B=A
+A[1]=22
+print(A)
+print(B)
+
+print('\n')
+
 #Clone list:To avoid pointing to same list by two variables after copying one variable to another
 A=['jalna', 21]
 B=A[:]
