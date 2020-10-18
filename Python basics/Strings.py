@@ -1,5 +1,5 @@
 name="ganesh solanke"
-name
+print(name)
 
 #Length of the string
 len(name)
