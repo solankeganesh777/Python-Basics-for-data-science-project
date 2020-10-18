@@ -1,2 +1,2 @@
-# Python Basics for data science project
+# Python basics for data science project
  
