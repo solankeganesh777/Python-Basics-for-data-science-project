@@ -1,5 +1,7 @@
 #API
 
+#REST API Basic
+
 #Install API for NBA.com
 !pip install nba_api
 
