@@ -16,7 +16,7 @@ from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 url_s2t = "https://stream.watsonplatform.net/speech-to-text/api"
 
 #API Key
-iam_apikey_s2t = "UQod4SGA2dPgCfBmew1lvV5ukmomVADJd3g_oIRRstV6"
+iam_apikey_s2t = ""
 
 #You create a Speech To Text Adapter object the parameters are the endpoint and API key.
 authenticator = IAMAuthenticator(iam_apikey_s2t)
@@ -66,7 +66,7 @@ from ibm_watson import LanguageTranslatorV3
 url_lt='https://gateway.watsonplatform.net/language-translator/api'
 
 #API Key
-apikey_lt='TwZ-JNcr7tDffFE3ic5ytjLS9aruuQYOPK2FHH07tu8X'
+apikey_lt=''
 
 #API requests require a version parameter that takes a date in the format version=YYYY-MM-DD
 version_lt='2018-05-01'
