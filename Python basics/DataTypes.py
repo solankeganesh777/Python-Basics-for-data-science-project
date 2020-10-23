@@ -54,24 +54,4 @@ print(type(x))
 #Sequence: Range
 x=range(6)
 print(x)  
-print(type(x) 
- 
-#Set:FrozenSet
-y=frozenset({'apple','mango','melon'})
-print(y)      
-print(type(y))      
-      
-#Binary:bytes 
-x=b"hello"
-print(x)
-print(type(x))
-      
-#Binary:bytearray
-x=bytearray(5) 
-print(x)
-print(x)
-      
-#Binary:Memoryview
-x=memoryview(bytes(5))
-print(x)
-print(type(x)      
+print(type(x)  
