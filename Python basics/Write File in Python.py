@@ -34,3 +34,5 @@ with open('/resources/data/Example2.txt',"r") as re:
             wr.write(line)
 with open('/resources/data/Example3.txt',"r") as ro:
     print(ro.read())
+
+    
