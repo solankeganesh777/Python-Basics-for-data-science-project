@@ -40,3 +40,11 @@ txt = "The rain in Spain"
 x = re.sub("\s", "9", txt)
 print(x)    
 
+
+print("---------------------------------------------------")
+string = "100,000,000.000"
+
+regex_pattern = r"[,.]"
+
+import re
+print("\n".join(re.split(regex_pattern, string)))
